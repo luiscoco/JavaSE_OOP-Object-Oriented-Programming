@@ -22,4 +22,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Compile Java
-        run: javac -d . /jva007-java-fundamentals/src/com/luxoft/jva007/enums/*.java
+        run: javac -d . jva007-java-fundamentals/src/com/luxoft/jva007/enums/*.java
